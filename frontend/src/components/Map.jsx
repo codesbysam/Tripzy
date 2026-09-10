@@ -36,7 +36,7 @@ export default function Map({
     L.control.zoom({ position: 'bottomright' }).addTo(map);
 
     // OpenStreetMap tile layer
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=cb1_34gl_1_5ae6254eb0c65ea29fa85208', {
       attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
       subdomains: 'abcd',
       maxZoom: 20
